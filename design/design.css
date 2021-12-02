@@ -123,6 +123,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     cursor: pointer;
     background-color: red;
     color:white;
+    margin-left: 10%;
 }
 #card_div div{
     margin: 10px 0px;
@@ -291,8 +292,102 @@ textarea{
     background-color: green;
     border: 1px solid green;
 }
+.bkg1_btn_width{
+    width: 35%;
+}
+.foot_subsc{
+    padding: 10px 0px 20px 70px;
+}
+.cc1{
+    width: 80%;
+    text-align: left; 
+    color:grey;
+}
 @media (max-width:480px){
     body{
         overflow-x: hidden;
+    }
+    .logo{
+        width: 48%;
+    }
+    .nav-container{
+        height: 44px;
+    }
+    .hh1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .hh2{
+        width: 100%;
+    }
+    .bkg1_btn_width{
+        width: 100%;
+    }
+    .bkg1{
+        background-position: center;
+        background-size: cover;
+        left:20%;
+        background-position: -160% 0%;
+    }
+    .div_2 {
+        padding: 60px 10px;
+    }
+    .div_2 h1{
+        margin-left: 6%;
+    }
+    .div_3{
+        padding: 60px 0px;
+    }
+    .div_3 h1{
+        font-size: 30px;
+    }
+    .div_4{
+        padding: 50px 10px;
+    }
+    .manage_div{
+        padding: 60px 0px;
+    }
+    .manage_div p{
+        text-align: center;
+        margin-left: -30px;
+    }
+    .div_5{
+        padding: 50px 10px;
+    }
+    .div_5 h5{
+        width: 100%;
+    }
+    #Built_cards div{
+        margin-left: -45px;
+        margin-top: 20px;
+    }
+    .div_5_in{
+        width: 96%;
+    }
+    .footimg{
+        width: 60%;
+    }
+    footer div input[type=submit]{
+        width: 20%;
+    }
+    /*contact us*/
+    .divbkg2{
+        left: -60%;
+    }
+    .cc1{
+        width: 90%;
+        font-size: 20px;
+    }
+    .form4 input{
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form4 textarea{
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
